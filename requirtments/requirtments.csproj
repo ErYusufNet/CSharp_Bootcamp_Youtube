@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7CA46DB2-544F-45DD-B595-1FFA33DB016B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>requirtments</RootNamespace>
+    <AssemblyName>requirtments</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="requirtmentDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet22.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet23.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet24.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet25.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="requirtmentDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>requirtmentDataSet9.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="requirtmentDataSet.xsc">
+      <DependentUpon>requirtmentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet.xss">
+      <DependentUpon>requirtmentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet1.xsc">
+      <DependentUpon>requirtmentDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet1.xss">
+      <DependentUpon>requirtmentDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet10.xsc">
+      <DependentUpon>requirtmentDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet10.xss">
+      <DependentUpon>requirtmentDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet11.xsc">
+      <DependentUpon>requirtmentDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet11.xss">
+      <DependentUpon>requirtmentDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet12.xsc">
+      <DependentUpon>requirtmentDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet12.xss">
+      <DependentUpon>requirtmentDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet13.xsc">
+      <DependentUpon>requirtmentDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet13.xss">
+      <DependentUpon>requirtmentDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet14.xsc">
+      <DependentUpon>requirtmentDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet14.xss">
+      <DependentUpon>requirtmentDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet15.xsc">
+      <DependentUpon>requirtmentDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet15.xss">
+      <DependentUpon>requirtmentDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet16.xsc">
+      <DependentUpon>requirtmentDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet16.xss">
+      <DependentUpon>requirtmentDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet17.xsc">
+      <DependentUpon>requirtmentDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet17.xss">
+      <DependentUpon>requirtmentDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet18.xsc">
+      <DependentUpon>requirtmentDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet18.xss">
+      <DependentUpon>requirtmentDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet19.xsc">
+      <DependentUpon>requirtmentDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet19.xss">
+      <DependentUpon>requirtmentDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet2.xsc">
+      <DependentUpon>requirtmentDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet2.xss">
+      <DependentUpon>requirtmentDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet20.xsc">
+      <DependentUpon>requirtmentDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet20.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet20.xss">
+      <DependentUpon>requirtmentDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet21.xsc">
+      <DependentUpon>requirtmentDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet21.xss">
+      <DependentUpon>requirtmentDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet22.xsc">
+      <DependentUpon>requirtmentDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet22.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet22.xss">
+      <DependentUpon>requirtmentDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet23.xsc">
+      <DependentUpon>requirtmentDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet23.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet23.xss">
+      <DependentUpon>requirtmentDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet24.xsc">
+      <DependentUpon>requirtmentDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet24.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet24.xss">
+      <DependentUpon>requirtmentDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet25.xsc">
+      <DependentUpon>requirtmentDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet25.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet25.xss">
+      <DependentUpon>requirtmentDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet3.xsc">
+      <DependentUpon>requirtmentDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet3.xss">
+      <DependentUpon>requirtmentDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet4.xsc">
+      <DependentUpon>requirtmentDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet4.xss">
+      <DependentUpon>requirtmentDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet5.xsc">
+      <DependentUpon>requirtmentDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet5.xss">
+      <DependentUpon>requirtmentDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet6.xsc">
+      <DependentUpon>requirtmentDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet6.xss">
+      <DependentUpon>requirtmentDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet7.xsc">
+      <DependentUpon>requirtmentDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet7.xss">
+      <DependentUpon>requirtmentDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet8.xsc">
+      <DependentUpon>requirtmentDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet8.xss">
+      <DependentUpon>requirtmentDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet9.xsc">
+      <DependentUpon>requirtmentDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="requirtmentDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>requirtmentDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="requirtmentDataSet9.xss">
+      <DependentUpon>requirtmentDataSet9.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
